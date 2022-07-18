@@ -4,45 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets\css\style.css">
     <title>Sistema Bibliotecário</title>
-    <style>
-        label {
-            display: inline-block;
-            width: 80px
-        }
-
-        input,
-        select {
-            width: 120px;
-        }
-    </style>
+    
 </head>
 
 <body>
-    <label>Id do livro</label> <input id="id" type="text"><br><br>
-    <label>Título</label> <input id="titulo" type="text"><br><br>
-    <label>Autor</label> <input id="autor" type="text"><br><br>
-    <label>ISBN 13</label> <input id="isbn_13" type="text"><br><br>
-    <label>ISBN 10</label> <input id="isbn_10" type="text"><br><br>
-    <label>Ano</label> <input id="ano" type="text"><br><br>
-    <label>Nº Páginas</label> <input id="paginas" type="text"><br><br>
-    <label>Idioma</label>
-    <select id="idioma">
-        <option value="portugues">português</option>
-        <option value="holandes">holandês</option>
-        <option value="ingles">inglês</option>
-        <option value="espanhol">espanhol</option>
-        <option value="alemao">alemão</option>
-    </select><br><br>
-    <label>Editora</label> <input id="editora" type="text"><br><br>
-    <label>Gênero</label> <input id="genero" type="text"><br><br>
 
+    <div class="container">
+        <div class="form-image">
+            <img src="assets/img/imagem.svg" alt="">
+    </div>
 
-    <hr>
-    <button id="ins">INSERT</button>
-    <button id="sel">SELECT</button>
-    <button id="upd">UPDATE</button>
-    <button id="del">DELETE</button>
+    <div class="form">
+        <form action="#">
+            <div class="form-header">
+                <div class="title">
+                    <h1>Sistema Bibliotecário</h1>
+                </div>
+            </div>
+
+        <div class="input-group">
+
+            <div class="input-box">
+                <label>Id do livro</label> <input id="id" placeholder="Digite o ID do livro" type="text"><br><br>
+            </div>
+
+            <div class="input-box">
+                <label>Título</label> <input id="titulo" placeholder="Digite o título do livro" type="text" required><br><br>
+
+            </div>
+
+            <div class="input-box">
+                <label>Autor</label> <input id="autor" placeholder="Nome do autor do livro" type="text" required><br><br>
+
+            </div>
+
+            <div class="input-box">    
+                <label>Número de Páginas</label> <input id="paginas" placeholder="Quantidade de páginas" type="text"><br><br>
+                </div>
+
+            <div class="input-box">
+                <label>Editora</label> <input id="editora" placeholder="Editora que publicou o livro" type="text"><br><br>
+            </div>
+            
+            <div class="input-box"> <label>Gênero</label> <input id="genero" placeholder="Ex: Romance, Fantasia" type="text"><br><br> </div>
+
+            <div class="input-box"><label>Ano</label> <input id="ano" placeholder="Ano de publicação do livro" type="text"><br><br></div>
+            
+            <div class="input-box">
+                <label>Idioma</label>
+                <select id="idioma">
+                    <option value="portugues">português</option>
+                    <option value="holandes">holandês</option>
+                    <option value="ingles">inglês</option>
+                    <option value="espanhol">espanhol</option>
+                    <option value="alemao">alemão</option>
+                </select><br><br>
+                
+            </div>
+                <div class="input-box"><label>ISBN 13</label> <input id="isbn_13" placeholder="Digite o ISBN de 13 dígitos" type="text"><br><br></div>
+                
+                <div class="input-box"><label>ISBN 10</label> <input id="isbn_10" placeholder="Digite o ISBN de 10 dígitos" type="text"><br><br> </div>  
+
+                </div>
+        
+        <div class="buttons">
+                    
+            <hr>
+            <button id="ins">INSERT</button>
+            <button id="sel">SELECT</button>
+            <button id="upd">UPDATE</button>
+            <button id="del">DELETE</button>
+                
+        </div>
+    
 
     <script type="module">
         // Import the functions you need from the SDKs you need
