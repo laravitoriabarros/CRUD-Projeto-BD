@@ -11,7 +11,7 @@ Como dataset, foram utilizados dados reais de diversos livros, introduzindo o CR
 # Preview
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/92494941/179410600-c09cdca8-b26d-481d-951d-b1470d09f9dd.png" width="800px" />
+<img src="https://user-images.githubusercontent.com/92494941/179541106-3576a9f5-a426-4f26-89af-94bc420f3cf1.png" width="1200px" />
 </div><br>
 
 <div align="center">
