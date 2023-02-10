@@ -1,12 +1,24 @@
-# Objetivo
+# Projeto de Banco de Dados
+
+![Badge em Desenvolvimento](https://img.shields.io/badge/STATUS-CONCLUÍDO-blue)
 
 Projeto desenvolvido para a disciplina <strong>Banco de dados</strong>, do curso <strong>Ciência da Computação</strong>, 
 da <strong>Universidade Federal de Alagoas</strong> (UFAL).
 
-# CRUD
+## 💻  Descrição
 
-Escrito em html, o código fornece as funções de Creat, Read, Update e Delete dentro do RealTime Database, no Firebase.
-Como dataset, foram utilizados dados reais de diversos livros, introduzindo o CRUD em um sistema bibliotecário.
+Escrito em HTML e estilizado com CSS, o código fornece as funções de Creat, Read, Update e Delete integrado ao RealTime Database, no Firebase.
+Como dataset, foram utilizados dados reais de diversos livros retirados da plataforma Kaggle, criando assim um exemplo de CRUD em um sistema bibliotecário.
+
+### 🛠 Tecnologias Utilizadas
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [VSCode](https://code.visualstudio.com/)
+- [Kaggle](https://www.kaggle.com)
+- [Firebase Realtime Database](https://firebase.google.com/docs/database?hl=pt-br)
 
 # Preview
 
